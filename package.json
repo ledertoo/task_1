@@ -3,10 +3,12 @@
   "version": "1.0.0",
   "description": "some test task",
   "main": "index.js",
+
   "scripts": {
     "start":"node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Tihon",
-  "license": "ISC"
+  "license": "ISC",
+  "type": "module"
 }
