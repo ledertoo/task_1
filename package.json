@@ -1,14 +1,24 @@
 {
-  "name": "task_1",
+  "name": "task1",
+  "workspaces": [
+    "workspace-a"
+  ],
   "version": "1.0.0",
   "description": "some test task",
   "main": "index.js",
-
   "scripts": {
-    "start":"node index.js",
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Tihon",
   "license": "ISC",
-  "type": "module"
+  "type": "module",
+  "dependencies": {
+    "yarn": "^1.22.19"
+  },
+  "repository": "https://github.com/ledertoo/task_1.git",
+  "devDependencies": {
+    "lerna": "^7.3.0",
+    "prettier": "3.0.3"
+  }
 }
